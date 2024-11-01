@@ -1,0 +1,57 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+.delay {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #808080;
+    transition: all 200ms ease-in-out;
+    padding-left: 16px;
+    outline: none;
+}
+
+.delay:hover, .delay:focus {
+    border: 1px solid black;
+}
+
+.delay:focus-within {
+    border: 1px solid #4e75ff;
+}
+
+.field {
+    width: 335px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+
+.create-btn {
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+    width: 360px;
+    height: 40px;
+    background-color: #4e75ff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #fff;
+    transition: all 250ms ease-in-out;
+}
+
+.create-btn:hover, .create-btn:focus {
+    background-color: #6c8cff;
+}
